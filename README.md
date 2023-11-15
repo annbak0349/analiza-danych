@@ -30,8 +30,9 @@ data <- read.table('./mieszkania.csv', header = TRUE, sep=",", na.strings = "?")
 Zbiór danych zawiera 52582 wierszy oraz 15 kolumn.
 
 ####Opis kolumn:
+* <span style="color:red; font-weight:bold">area</span>: powierzchnia mieszkania [m2];
 
-##Podsumowanie
+## Podsumowanie
 Na podstawie powyższych wykresów można stwierdzić, że na jedną osobę w Polsce przypada prawie 31 m2 mieszkania. Najnowszy odczyt jest o 3 m większy niż 5 lat temu i o ponad 8 m większy niż w 2002 roku. Sytuacja mieszkaniowa Polaków poprawia się, choć wciąż daleko nam do warunków europejskich. Poprawę zawdzięczamy przede wszystkim nowym nieruchomościom – domom i mieszkaniom powstającym w Polsce. W latach 2003 – 2022 oddano do użytkowania ponad 3,2 mln takich nieruchomości. 
 Średnia europejska to 40 m2. Gdyby przyjąć, że w Polsce przez kolejne lata powstawałoby tyle mieszkań co w latach 2013-2022, to dojście do europejskiej średniej zajęłoby nam około 20-30 lat.
 
